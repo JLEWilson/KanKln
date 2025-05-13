@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KanKln/static/css/main.29ffe382.css",
+    "main.js": "/KanKln/static/js/main.afb1e058.js",
+    "static/js/787.0c051512.chunk.js": "/KanKln/static/js/787.0c051512.chunk.js",
+    "index.html": "/KanKln/index.html",
+    "main.29ffe382.css.map": "/KanKln/static/css/main.29ffe382.css.map",
+    "main.afb1e058.js.map": "/KanKln/static/js/main.afb1e058.js.map",
+    "787.0c051512.chunk.js.map": "/KanKln/static/js/787.0c051512.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29ffe382.css",
+    "static/js/main.afb1e058.js"
+  ]
+}
