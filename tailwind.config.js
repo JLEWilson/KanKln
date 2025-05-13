@@ -52,9 +52,9 @@ module.exports = {
         },
       },
       colors: {
-        background: '#001C30',
+        background: '#000000',
         primary: '#176B87',
-        secondary: '#64CCC5',
+        secondary: '#f6f97a',
         text: '#DAFFFB',
       },
       skew: {

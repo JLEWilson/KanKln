@@ -1,21 +1,12 @@
-import React, { useRef, useEffect } from 'react'
+import React from 'react'
 import Typography from '../Typography'
-import { useScrollContext } from '../ScrollContext'
 import join from '../utils'
 
 const About = () => {
-  const ref = useRef<HTMLDivElement>(null)
-  const { registerScrollTarget } = useScrollContext()
-
-  useEffect(() => {
-    registerScrollTarget(ref.current)
-  }, [registerScrollTarget])
-
   return (
     <section
-      ref={ref}
       className={join(
-        'md:mt-52 mt-40 md:mx-20 mx-5',
+        'mt-20 md:mx-20 mx-5',
         'font-Changa font-light',
         'snap-center',
       )}
@@ -24,18 +15,31 @@ const About = () => {
         variant='h1'
         className='text-text'
       >
-        About Me
+        What We do
       </Typography>
       <hr className='my-2 mx-[30vw] h-2' />
       <Typography
-        variant='h2'
+        variant='h4'
         className='text-secondary'
       >
-        Perpetually curious, I am originally a self-taught coder. My journey
-        began learning C# in order to develop video games as a hobby, I went on
-        to complete a coding bootcamp to learn best practices and gain some
-        direction. Having interned at a tech start up I am now eager to find my
-        first tech role. Let&apos;s create something great together!
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+        facilisis et lacus non porta. Suspendisse ut augue vitae augue facilisis
+        fringilla commodo in velit. Integer blandit sodales leo, et scelerisque
+        arcu faucibus non. Nulla in varius neque. Sed pulvinar libero odio.
+        Aenean eget dolor pretium, sodales lacus eu, tempor velit. Curabitur
+        mollis, nisl non eleifend volutpat, ex dui feugiat justo, eget
+        sollicitudin felis risus mollis dolor. Pellentesque tincidunt ante
+        tincidunt tortor tempus aliquet. Sed varius urna at dui maximus eleifend.
+        In feugiat justo nec nisl interdum laoreet. Phasellus tristique urna vel
+        tellus dapibus rhoncus. Vestibulum ante ipsum primis in faucibus orci
+        luctus et ultrices posuere cubilia curae; Vivamus sit amet diam
+        sollicitudin, congue risus a, faucibus ipsum. Integer efficitur, eros in
+        accumsan auctor, mauris metus condimentum risus, et feugiat sem tortor
+        porta elit. Phasellus pharetra, est sit amet vehicula porta, orci nisl
+        vestibulum purus, id convallis sapien sapien eget arcu. Nulla massa leo,
+        faucibus vitae bibendum vitae, faucibus sit amet neque. Nunc porttitor
+        urna non felis porta, ac ornare nibh finibus. Maecenas lacus mi, accumsan
+        sed commodo vel, eleifend sit amet libero.
       </Typography>
     </section>
   )
