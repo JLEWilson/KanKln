@@ -1,8 +1,8 @@
 {
-  "name": "portfolio_website",
+  "name": "kankln",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.jlewilson.com",
+  "homepage": "https://www.kankln.com",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -60,7 +60,7 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "gh-pages": "^6.1.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.23",
     "prettier": "^3.0.3",
     "prettier-eslint": "^16.1.2",

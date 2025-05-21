@@ -2,6 +2,7 @@ import React from 'react'
 import join from './utils'
 import About from './components/about'
 import Header from './components/header'
+import Contact from './components/contact'
 
 const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: React.FC = () => {
         <Header />
       </div>
       <About />
+      <Contact />
     </div>
   )
 }
