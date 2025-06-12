@@ -13,7 +13,10 @@ const Contact = () => {
         variant='h4'
         className='text-text'
       >
-        For inquiries, please contact us at: Josh&apos;semail.com
+        For inquiries, please contact us at{' '}
+        <span className='text-blue-500 hover:text-blue-700'>
+          <a href='mailto:info@kankln.comgit '>info@kankln.com</a>
+        </span>
       </Typography>
     </section>
   )
