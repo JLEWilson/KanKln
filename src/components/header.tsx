@@ -1,12 +1,11 @@
 import React from 'react'
+import join from '../utils'
 import TitleSVG from '../images/TitleSVG'
 
 const Header = () => {
   return (
-    <div className='mx-10 snap-center'>
-      <div className='bg-black'>
-        <TitleSVG />
-      </div>
+    <div className={join('bg-black')}>
+      <TitleSVG />
     </div>
   )
 }
