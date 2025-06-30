@@ -6,16 +6,27 @@ import join from '../utils'
 const Contact = () => {
   return (
     <section
-      className={join('mt-20  bottom-5 md:mx-20 mx-5', 'font-Changa font-light')}
+      className={join(
+        'mt-10 fixed bottom-0 pb-5 left-0 right-0 md:px-20 px-5',
+        'font-Changa font-light bg-black z-10',
+      )}
     >
-      <hr className='my-2 mx-[30vw] h-2' />
       <Typography
         variant='h4'
         className='text-text'
       >
-        For inquiries, please contact us at{' '}
+        Your cleaner property starts here—schedule your quote today{' '}
+      </Typography>
+      <Typography
+        variant='h4'
+        className='text-text'
+      >
         <span className='text-blue-500 hover:text-blue-700'>
-          <a href='mailto:info@kankln.comgit '>info@kankln.com</a>
+          <a href='mailto:info@kankln.com'>info@kankln.com</a>
+        </span>{' '}
+        /{' '}
+        <span className='text-blue-500 hover:text-blue-700 whitespace-nowrap'>
+          (503) 807-8094
         </span>
       </Typography>
     </section>
