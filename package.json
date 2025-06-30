@@ -28,7 +28,7 @@
     "test react": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --fix --ext .ts,.tsx .",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'www.kankln.com' > build/CNAME",
     "deploy": "gh-pages -d build"
   },
   "engines": {
