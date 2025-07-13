@@ -18,8 +18,8 @@ const App: React.FC = () => {
         {route === 'home' && (
           <div className={join('absolute top-0 left-0 w-full h-full', ' -z-10')}>
             <VideoBackground
-              src='/video_WashA.mp4'
-              fallbackColor='bg-gray-900'
+              src='/videos/Wash_After.mp4'
+              fallbackColor='bg-black'
             />
           </div>
         )}
