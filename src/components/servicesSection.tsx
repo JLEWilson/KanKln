@@ -8,8 +8,8 @@ const services = [
     title: 'Pressure Washing',
     img: '/images/Driveway.webp',
     subtitle: 'Patios • Driveways • Sidewalks',
-    description: `High-temp pressure washing removes dirt, mold, oil & grime. 
-      Safe on all outdoor surfaces.`,
+    description: `High-temp pressure washing removes dirt, mold, oil & grime 
+      from concrete surfaces.`,
   },
   {
     id: 'bin-sanitizing',
@@ -48,9 +48,14 @@ const Services = () => {
           <div className='relative z-10 p-4 rounded-lg '>
             <div className='relative py-4 flex items-center justify-center'>
               <div className='text-center mx-auto'>
-                <Typeography variant='h3'>{service.title}</Typeography>
                 <Typeography
-                  className='text-gray-100'
+                  variant='h3'
+                  className='text-text font-bold'
+                >
+                  {service.title}
+                </Typeography>
+                <Typeography
+                  className='text-text font-bold'
                   variant='body'
                 >
                   {service.subtitle}
@@ -64,7 +69,7 @@ const Services = () => {
               )}
             >
               <Typeography
-                className='text-gray-100 text-center'
+                className='text-text font-bold  text-center'
                 variant='h5'
               >
                 {service.description}

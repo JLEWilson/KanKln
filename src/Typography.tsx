@@ -7,6 +7,7 @@ interface Props {
   children: ReactNode
   className?: string
   as?: ElementType
+  style?: React.CSSProperties
 }
 
 const tags: Record<Variant, ElementType> = {
@@ -31,11 +32,18 @@ const sizes: Record<Variant, string> = {
   'small': 'xl:text-md lg:text-sm md:text-xs text-xs',
 }
 
-const Typography = ({ variant, children, className, as }: Props) => {
+const Typography = ({ variant, children, className, style, as }: Props) => {
   const sizeClasses = sizes[variant]
   const Tag = as || tags[variant]
 
-  return <Tag className={`${sizeClasses} ${className}`}>{children}</Tag>
+  return (
+    <Tag
+      style={style}
+      className={`${sizeClasses} ${className}`}
+    >
+      {children}
+    </Tag>
+  )
 }
 
 export default Typography

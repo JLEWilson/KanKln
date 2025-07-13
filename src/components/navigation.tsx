@@ -17,10 +17,10 @@ const Navigation: React.FC<NavigationProps> = ({ setRoute }) => {
         <button
           type='button'
           onClick={() => setRoute('home')}
-          className='hover:underline'
+          className='hover:underline hover:text-secondary'
         >
           <Typography
-            className='text-text'
+            className='text-text font-bold hover:text-secondary'
             variant='h4'
           >
             Home
@@ -41,10 +41,10 @@ const Navigation: React.FC<NavigationProps> = ({ setRoute }) => {
         <button
           type='button'
           onClick={() => setRoute('services')}
-          className='hover:underline'
+          className='hover:underline hover:text-secondary'
         >
           <Typography
-            className='text-text'
+            className='text-text font-bold hover:text-secondary'
             variant='h4'
           >
             Services
